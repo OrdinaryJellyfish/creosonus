@@ -8174,6 +8174,11 @@ tty-browserify@0.0.0:
   resolved "https://registry.yarnpkg.com/tty-browserify/-/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
   integrity sha1-oVe6QC2iTpv5V/mqadUk7tQpAaY=
 
+tunajs@^1.0.8:
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/tunajs/-/tunajs-1.0.15.tgz#fe1be8fac86049ca2353d6e078d07dee069a5147"
+  integrity sha512-es0bgyTHP8ftyWEot7YqLlLH30yZqHUTT6K5TKFhVqIB1Y6Cuu8WvBunfTVQSmzrpuhz15PQjyen7uuwi4gjdw==
+
 tunnel-agent@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.6.0.tgz#27a5dea06b36b04a0a9966774b290868f0fc40fd"
@@ -8560,6 +8565,14 @@ wcwidth@^1.0.1:
   integrity sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g=
   dependencies:
     defaults "^1.0.3"
+
+web-audio-daw@^4.12.0:
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/web-audio-daw/-/web-audio-daw-4.12.0.tgz#9f0d6e154a336fb4474bfd9d5b7a2366d4a795ff"
+  integrity sha512-K7+xOO3H+mAkil7mZ3X2026bo+FpTfMGlhzkgq7wz5vLxr0Jao9Ive3UJ0fR/aiZSbMExySFxDaZ8FscX6hjSQ==
+  dependencies:
+    lodash "^4.17.21"
+    tunajs "^1.0.8"
 
 webpack-bundle-analyzer@^3.8.0:
   version "3.9.0"

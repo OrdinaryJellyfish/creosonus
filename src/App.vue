@@ -1,15 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div>
+    <button @click="playNoise">PLAY ME</button>
+  </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Wad from "web-audio-daw";
 
 export default {
   name: "App",
-  components: {
-    HelloWorld,
+  methods: {
+    playNoise() {
+      let wad = new Wad({ source: "sawtooth" });
+
+      wad.play();
+    }
   },
 };
 </script>
